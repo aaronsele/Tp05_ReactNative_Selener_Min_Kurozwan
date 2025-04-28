@@ -1,15 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import {styles} from './style.js';
-
-
-
-
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Prueba de creacion de este tp, Min, Selener y la changuita Kuro, Polshu crack</Text>
+      <Text style={styles.text}>Prueba de creacion de este tp, Min, Selener y la changuita Kuro, Polshu crack</Text>
       <StatusBar style="auto" />
     </View>
   );
